@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cart Page</title>
+	<link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+    <section id="header">
+   	    <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+	   	    <div>
+	   	    	<ul id="navbar">
+	   	    		<li> <a  href="index.html">home</a></li>
+	   	    		<li> <a  href="shop.html">shop</a></li>
+	   	    		<li> <a href="blog.html">blog</a></li>
+	   	    		<li> <a href="about.html">about</a></li>
+	   	    		<li> <a href="contact.html">contact</a></li>
+	   	    		<li> <a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></i></a></li>
+	   	    	
+	   	    	</ul>
+	   	    </div>
+    </section>
+
+    <div class="main-cart">
+    	<table>
+
+    		<tr>
+    			<th>Item</th>
+    			<th>Price</th>
+    			<th>Size</th>
+    			<th>Quantity</th>
+    			<th>More</th>
+    		</tr>
+
+    		<tr  class="cart-product-row">
+    			<td><img class="cart-product-img" src="img/products/f1.jpg" /></td>
+    			<td class="cart-product-price">78</td>
+    			<td>
+    				<select>
+			            <option>Select Size</option>
+			            <option>XL</option>
+			            <option>XXL</option>
+			            <option>Small</option>
+			            <option>Large</option>
+                   </select>
+                </td>
+                <td><input class="cart-product-quantity" type="number" name="cartQuantity" value="1"></td>
+                <td><button class="cart-remove">remove</button></td>
+    		</tr>
+
+    		<tr class="cart-product-row">
+    			<td><img class="cart-product-img" src="img/products/f2.jpg" /></td>
+    			<td class="cart-product-price">100</td>
+    			<td>
+    				<select>
+			            <option>Select Size</option>
+			            <option>XL</option>
+			            <option>XXL</option>
+			            <option>Small</option>
+			            <option>Large</option>
+                   </select>
+                </td>
+                <td><input class="cart-product-quantity" type="number" name="cartQuantity" value="1"></td>
+                <td><button class="cart-remove">remove</button></td>
+    		</tr>
+
+    		<tr class="cart-product-row">
+    			<td><img class="cart-product-img" src="img/products/f3.jpg" /></td>
+    			<td class="cart-product-price">150</td>
+    			<td>
+    				<select>
+			            <option>Select Size</option>
+			            <option>XL</option>
+			            <option>XXL</option>
+			            <option>Small</option>
+			            <option>Large</option>
+                   </select>
+                </td>
+                <td><input class="cart-product-quantity" type="number" name="cartQuantity" value="1"></td>
+                <td><button class="cart-remove">remove</button></td>
+    		</tr>
+
+    		<tr class="cart-product-row">
+    			<td><img class="cart-product-img" src="img/products/f4.jpg" /></td>
+    			<td class="cart-product-price">250</td>
+    			<td>
+    				<select>
+			            <option>Select Size</option>
+			            <option>XL</option>
+			            <option>XXL</option>
+			            <option>Small</option>
+			            <option>Large</option>
+                   </select>
+                </td>
+                <td><input class="cart-product-quantity" type="number" name="cartQuantity" value="1"></td>
+                <td><button class="cart-remove">remove</button></td>
+    		</tr>
+
+          
+    	</table>
+    	<h1 > Total: $<span class="total-amount"></span></h1>
+
+    </div>
+    
+
+<script type="text/javascript" src="cart.js"></script>
+</body>
+</html>
